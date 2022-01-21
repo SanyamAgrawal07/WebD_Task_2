@@ -1,0 +1,64 @@
+.card 
+{
+    box-shadow: blueviolet 0 4px 8px 0;
+    transition: 0.3s;
+    border-radius: 25px;
+}
+.section
+{
+    height: "100vh";
+    width: "100%";
+    position: relative;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+h1
+{
+    text-align: center;
+    z-index: 1;
+}
+p
+{
+    text-align: center;
+    z-index: 1;
+}
+h2
+{
+    text-align: center;
+    z-index: 1;
+}
+h3
+{
+    text-align: center;
+    z-index: 1;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border : 2px solid cyan;
+    z-index: 1;
+  }
+.github
+{
+    display: block;
+    float: right;
+    border : 0px solid white;
+    z-index: 1;
+}
+ul
+{
+    text-align: center;
+    list-style-position: inside;
+    z-index: 1;
+}
+
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
